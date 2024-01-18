@@ -1,0 +1,22 @@
+main{
+	print(introduzca 2 numeros)
+	int input n1;
+	int input n2;
+	
+	rango() = n1>n2 ? rango(n1, n2) : rango(n2, n1);
+	
+
+}
+
+
+static void int rango(x, y){
+
+	for(int i = x; i<= y; i++){
+		if(i %10 == 5){
+			continue;
+		}else{
+		print(i);
+		}
+	}
+
+}

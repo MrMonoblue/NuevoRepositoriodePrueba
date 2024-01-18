@@ -1,0 +1,123 @@
+
+Función switch
+
+switch (expresion) {
+		case Valor1:
+			instrucciones
+			break;
+		
+		case Valor2:
+			instrucciones
+			break;
+		
+		case Valor_n:
+			instrucciones
+			break;
+		
+		default:
+			instrucciones
+			break;
+			
+	}
+
+
+
+
+programa notas.
+
+
+public class Nota{
+   
+public static void main (String[] args) {
+        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+		System.out.println("Introduzca su nota ");
+        int x = (int) sc.nextFloat();
+        switch(x){
+			case 0, 1, 2, 3, 4:{
+				System.out.println("Suspendiste ");
+                                break;
+				}
+			case 5:{
+				System.out.println("Aprobaste por los pelos ");
+                                break;
+				}
+			case 6:{
+				System.out.println("Bien pero puedes mejorar ");
+                                break;
+				}
+			case 7, 8 :{
+				System.out.println("Muy bien, tienes un notable ");
+				break;
+                                }
+			case 9, 10:{
+				System.out.println("¡Excelente! ");
+                                break;
+				}
+			default:{
+				System.out.print("Mete un nunmero de verdad guey");
+			}
+        
+		}
+		}
+}
+
+	
+	
+	Dias de la semana
+	
+	
+	public class Día{
+   
+	public static void main (String[] args) {
+			// TODO code application logic here
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Escribe la fecha de hoy en el formato dd-mm-aaaa ");
+			int x, y, z = (int) sc.nextInt();
+			
+			if x ==0 or y == 0 or z == 0:
+				System.out.println("la fecha introducida no es correcta, introduzca la fecha correcta")
+				
+			else:
+				System.out.println("La fecha introducida -" + x + y + z + "- Es correcta")
+			
+			}
+	}
+	
+	
+comparar 2 n
+umeros y ordenarlos de menor a mayor
+	
+	operador ternario>>>    condicion ? resultado verdadero : resultado falso     sólo se le pueden meter valores, nunca un print o un if ni nada por el estilo
+	
+	
+	
+	switch (expresion) {
+		case Valor1:
+			instrucciones
+			break;
+		
+		case Valor2:
+			instrucciones
+			break;
+		
+		case Valor_n:
+			instrucciones
+			break;
+		
+		default:
+			instrucciones
+			break;
+			
+	}
+	
+	
+	
+
+	public class Día{
+   
+	public static void main (String[] args) {
+			// TODO code application logic here
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Dime un número del 1 al 7 ");
+			int x = (int) sc.nextInt();

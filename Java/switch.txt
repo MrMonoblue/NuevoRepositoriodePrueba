@@ -1,0 +1,29 @@
+float x = (float) sc.nextFloat();
+        switch(x){
+			case 0, 1, 2, 3, 4:{
+				System.out.println("Suspendiste ");
+                                break;
+				}
+			case 5:{
+				System.out.println("Aprobaste por los pelos ");
+                                break;
+				}
+			case 6:{
+				System.out.println("Bien pero puedes mejorar ");
+                                break;
+				}
+			case 7, 8 :{
+				System.out.println("Muy bien, tienes un notable ");
+				break;
+                                }
+			case 9, 10:{
+				System.out.println("¡Excelente! ");
+                                break;
+				}
+			default:{
+				System.out.print("Mete un nunmero de verdad guey");
+			}
+        
+		}
+		}
+}
